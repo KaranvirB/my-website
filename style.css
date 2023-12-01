@@ -34,7 +34,7 @@
 .navbutton:hover {
     background-color: rgb(92, 226, 253);
     color: rgb(25, 25, 25);
-    font-size: 28px;
+    font-size: 170%;
 }
 
 body {
@@ -48,7 +48,7 @@ section {
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 200%;
 }
 
 p {
@@ -60,11 +60,12 @@ p {
     background-color: rgb(92, 226, 253);
     overflow: auto;
     padding: 0px 30px;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     width: 100%;
+    margin: 0px;
     display: flex;
     justify-content: center;
     z-index: 999;
@@ -73,6 +74,7 @@ p {
 
 .info {
     list-style-type: none;
-    padding: 20px;
+    padding: 30px;
     font-size: 20px;
+    color: rgb(25, 25, 25);
 }
