@@ -1,3 +1,7 @@
+* {
+    margin-bottom: 0;
+}
+
 .navigation {
     box-sizing: border-box;
     background-color: rgb(252, 151, 73);
@@ -40,6 +44,7 @@
 body {
     background: rgb(25, 25, 25);
     font-family: 'Nova Square'; 
+    margin: 0;
 }
 
 .intro {
@@ -56,8 +61,6 @@ body {
     background-color: rgb(25, 25, 25);
     padding: 0;
 }
-
-
 
 .images {
     box-sizing: border-box;
@@ -78,12 +81,12 @@ img {
     width: 30%;
 }
 
-table {
+.itable {
     text-align: center;
     padding: 5%;
 }
 
-td {
+.itd {
     padding: 30px 0px;
 }
 
@@ -93,6 +96,42 @@ h1 {
 
 p {
     font-size: 25px;
+}
+
+.projects {
+    box-sizing: border-box;
+    background-color: rgb(45, 45, 45);
+    overflow: auto;
+    position: relative;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 150px;
+    display: flex;
+    justify-content: left;
+}
+
+.ptitle {
+     font-size: 35px;
+     padding: 30px;
+     text-align: left;
+     column-span: all;
+     background-color: rgb(25, 25, 25);
+}
+
+.prow {
+    column-span: all;
+}
+
+.ptd {
+    padding: 30px;
+}
+
+footer {
+    margin: 0px;
 }
 
 .footer {
@@ -105,7 +144,6 @@ p {
     left: 0;
     right: 0;
     width: 100%;
-    margin: 0px;
     display: flex;
     justify-content: center;
     z-index: 999;
